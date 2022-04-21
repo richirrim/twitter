@@ -1,0 +1,32 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Práctica 3",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard && node ./node_modules/.bin/jest",
+    "start": "standard && node index.js",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "standard": {
+    "env": ["jest"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richirrim/twitter.git"
+  },
+  "author": "Ricardo Ortega (@richirrim)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richirrim/twitter/issues"
+  },
+  "homepage": "https://github.com/richirrim/twitter#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "standard": "^17.0.0"
+  }
+}
