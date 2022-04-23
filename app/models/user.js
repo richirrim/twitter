@@ -9,10 +9,10 @@ class User {
 
   /**
    *  Lo que está haciendo el comment de abajo, es deshabilitar la regla
-   * que nos pide que los métodos get y set se llamen igual, 
+   * que nos pide que los métodos get y set se llamen igual,
    * ejemplo: set username () { ... } y get username () { ... }.
-   * Pero o vaya sorpresa no lo hago así porque a la hr de llamar a dicho 
-   * métodos desde el file test ocurre un hermoso error. Nota: no sé, si 
+   * Pero o vaya sorpresa no lo hago así porque a la hr de llamar a dicho
+   * métodos desde el file test ocurre un hermoso error. Nota: no sé, si
    * está sea la solución más correcta pero por el momento funciona.
    */
   /* eslint-disable accessor-pairs */
